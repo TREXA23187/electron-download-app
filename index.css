@@ -1,0 +1,21 @@
+#download-area {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+#process {
+    display: inline-block;
+    /* background-color: yellow; */
+    width: 25px;
+}
+
+#rect {
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+    position: absolute;
+    left: 104px;
+    top: 8px;
+}

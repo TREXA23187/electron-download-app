@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Hello World!</title>
+    <link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+
+<body>
+    <div>
+        <h1>Hello World!</h1>
+        We are using Node.js <span id="node-version"></span>, Chromium <span id="chrome-version"></span>, and Electron
+        <span id="electron-version"></span>.
+    </div>
+    <div id="download-area">
+        <span>url</span>
+        <button id="download-btn">download</button>
+        <button id="pause-btn">pause</button>
+        <button id="resume-btn">resume</button>
+        <button id="cancel-btn">cancel</button>
+        <div id="process"></div>
+        <div id="rect"></div>
+    </div>
+    <button id="open-btn">open</button>
+    <button id="file-btn">file</button>
+</body>
+<script src="./renderer.js">
+</script>
+
+</html>
